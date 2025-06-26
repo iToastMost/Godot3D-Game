@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4EX8eI04MWWY/e+9HQQuvFFx9YxWnuiIvHgNB0w8VgFEteWRzQr7XDvFpZFXo7VXSKmPmFk3fzoci+fwcAcE8w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Chevr\\Desktop\\Godot\\projects\\3d_squash_the_creeps_starter\\Squash the Creeps (3D).csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Chevr\\.nuget\\packages\\godot.sourcegenerators\\4.4.1\\godot.sourcegenerators.4.4.1.nupkg.sha512",
+    "C:\\Users\\Chevr\\.nuget\\packages\\godotsharp\\4.4.1\\godotsharp.4.4.1.nupkg.sha512",
+    "C:\\Users\\Chevr\\.nuget\\packages\\godotsharpeditor\\4.4.1\\godotsharpeditor.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}
