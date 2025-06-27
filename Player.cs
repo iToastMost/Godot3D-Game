@@ -4,6 +4,12 @@ using System;
 public partial class Player : CharacterBody3D
 {
 	[Export]
+	public int JumpImpulse { get; set; } = 20;
+
+	[Export]
+	public int BounceImpulse { get; set; } = 16;
+
+	[Export]
 	public int Speed { get; set; } = 14;
 
 	[Export]
@@ -35,9 +41,24 @@ public partial class Player : CharacterBody3D
 			direction.Z += 1.0f;
 		}
 
-		if (Input.IsActionJustPressed("jump"))
+		if (IsOnFloor() && Input.IsActionJustPressed("jump"))
 		{
-			direction.Y += 10.0f;
+			_targetVelocity.Y = JumpImpulse;
+		}
+
+		for(int index = 0; index < GetSlideCollisionCount(); index++)
+		{
+			KinematicCollision3D collision = GetSlideCollision(index);
+
+			if(collision.GetCollider() is Mob mob)
+			{
+				if (Vector3.Up.Dot(collision.GetNormal()) > 0.1f)
+				{
+					mob.Squash();
+					_targetVelocity.Y = BounceImpulse;
+					break;
+				}
+			}
 		}
 
 		if(direction != Vector3.Zero)
