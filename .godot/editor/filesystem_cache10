@@ -1,8 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1750907899
+::res://::1750992224
 icon.webp::CompressedTexture2D/CompressedTexture2D::27118964165343846::1744386698::1750907876::1::::<><><>0<>0<>2765b228073266418cb0e013965e5088<>res://.godot/imported/icon.webp-e94f9a68b0f625a567a797079e4d325f.ctex::
-main.tscn::PackedScene::2841114647083140233::1750907899::0::1::::<><><>0<>0<><>::
-player.tscn::PackedScene::970357283989933972::1750907899::0::1::::<><><>0<>0<><>::uid://d0ypm0v45pwdv::::res://art/player.glb
+main.tscn::PackedScene::2841114647083140233::1750911197::0::1::::<><><>0<>0<><>::uid://n3bv37si0l4g::::res://player.tscn
+Player.cs::CSharpScript::5758344342153186883::1750910872::0::1::::<>CharacterBody3D<><>0<>0<><>::
+player.tscn::PackedScene::970357283989933972::1750911197::0::1::::<><><>0<>0<><>::uid://cobndcb1o7av0::::res://Player.cs<>uid://d0ypm0v45pwdv::::res://art/player.glb
 ::res://art/::1750907877
 body.tres::StandardMaterial3D/StandardMaterial3D::-1::1744386698::0::1::::<><><>0<>0<><>::
 eye.tres::StandardMaterial3D/StandardMaterial3D::-1::1744386698::0::1::::<><><>0<>0<><>::
